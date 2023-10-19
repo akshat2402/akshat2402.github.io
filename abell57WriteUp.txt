@@ -1,3 +1,5 @@
+Abell 57 Cloudy Write Up
+CEK:
 For the Abell 57 CEK, I used the dereddened line ratios, as provided by Robin, as input matching for Cloudy.
 I set up the input paramters as follows to obtain the ideal matches:
 title abell57
@@ -31,3 +33,31 @@ The paramters assume a log luminosity of the CEK in ergs/s, a log total hydrogen
 radius in cm, and planetary nebula abundances. I used the Rauch H-Ni stellar atmospheres 
 (as described at http://astro.uni-tuebingen.de/~rauch/TMAF/flux_H-Ni.html)with a log temperature.
  
+Faint PN:
+For the surrounding faint PN, I performed a similar analysis, once again using dereddened line ratios provided by Robin.
+I set up cloud, and used the optimizer to obtain the ideal paramters. This run, however, was more difficult,
+as there were significantly more ratios to match. The H-alpha, [O III] 5007 and He I 5876 matched well from the start, 
+but I had the following ratios to match in addition:
+[Ne III] 3689
+[Ar IV] 4711
+O2 Doublet - this wasn't a matching scenario, rather a comparison to 5007 to ensure a good fit
+[N II] 6584
+[S II] 6717
+
+After numerous iterations, I was able to obtain the following parameters which matched H-alpha,
+[O III] 5007, He I 5876 and [Ne III] 3689 well. It also led to a good ratio for the O2 Doublet
+when compared to 5007, implying a good fit. [N II] 6584 and [S II] 6717 however, were not great
+fits. 
+
+The ideal parameters are as follows:
+
+title abell57CSFaint
+sphere
+BLACKbody= 5.082341 LOG
+LUMINOSITY 36.790073 LOG range -0.000232 6.866279
+HDEN=2.662584 LOG
+RADIUS = 0.11 linear parsecs
+abundances planetary nebula
+metal     1.250
+ 
+Here I assume a blackbody temparature in log scale, and assume spherical geometry.
