@@ -61,3 +61,42 @@ abundances planetary nebula
 metal     1.250
  
 Here I assume a blackbody temparature in log scale, and assume spherical geometry.
+
+References (in BibTex format):
+Cloudy:
+@ARTICLE{2023RMxAA..59..327C,
+       author = {{Chatzikos}, M. and {Bianchi}, S. and {Camilloni}, F. and {Chakraborty}, P. and {Gunasekera}, C.~M. and {Guzm{\'a}n}, F. and {Milby}, J.~S. and {Sarkar}, A. and {Shaw}, G. and {van Hoof}, P.~A.~M. and {Ferland}, G.~J.},
+        title = "{The 2023 Release of Cloudy}",
+      journal = {\rmxaa},
+     keywords = {atomic data, galaxies: active, globular clusters: general, molecular data, software: development, Astrophysics - Astrophysics of Galaxies, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2023,
+        month = oct,
+       volume = {59},
+        pages = {327-343},
+          doi = {10.22201/ia.01851101p.2023.59.02.12},
+archivePrefix = {arXiv},
+       eprint = {2308.06396},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023RMxAA..59..327C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+Rauch Stellar Atmosphere Grids:
+@ARTICLE{2003A&A...403..709R,
+       author = {{Rauch}, T.},
+        title = "{A grid of synthetic ionizing spectra for very hot compact stars from NLTE model atmospheres}",
+      journal = {\aap},
+     keywords = {planetary nebulae: general, stars: atmospheres, stars: early-type, stars: general, ultraviolet: stars, Astrophysics},
+         year = 2003,
+        month = may,
+       volume = {403},
+        pages = {709-714},
+          doi = {10.1051/0004-6361:20030412},
+archivePrefix = {arXiv},
+       eprint = {astro-ph/0303464},
+ primaryClass = {astro-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2003A&A...403..709R},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
